@@ -24,7 +24,7 @@ docker-compose exec web python manage.py create_db
 ```
 docker-compose exec web python manage.py seed_db
 ```
-4. Access the application:
+4. Access the application:  
 App: http://localhost:8000/  
 Static files: http://localhost:8000/static/hello.txt  
 File uploads: http://localhost:8000/upload
@@ -46,10 +46,10 @@ docker-compose -f docker-compose.prod.yml up -d --build
 ```
 docker-compose -f docker-compose.prod.yml exec web python manage.py create_db
 ```
-3. Access the application:
-App (via Nginx): http://localhost:8000
-Static files: http://localhost:8000/static/hello.txt
-Media files: http://localhost:8000/media/<filename>
+3. Access the application:  
+App (via Nginx): http://localhost:8000  
+Static files: http://localhost:8000/static/hello.txt  
+Media files: http://localhost:8000/media/\<filename\>
 4. View production logs:
 ```
 docker-compose -f docker-compose.prod.yml logs -f
