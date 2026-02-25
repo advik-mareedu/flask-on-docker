@@ -59,7 +59,7 @@ docker-compose -f docker-compose.prod.yml logs -f
 docker-compose -f docker-compose.prod.yml down -v
 ```
 
-Quick Start (TL;DR)
+Quick Start (TL;DR)  
 Development:
 ```
 docker-compose up -d --build
