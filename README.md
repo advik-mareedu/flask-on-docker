@@ -25,8 +25,8 @@ docker-compose exec web python manage.py create_db
 docker-compose exec web python manage.py seed_db
 ```
 4. Access the application:
-App: http://localhost:8000/
-Static files: http://localhost:8000/static/hello.txt
+App: http://localhost:8000/  
+Static files: http://localhost:8000/static/hello.txt  
 File uploads: http://localhost:8000/upload
 5. View logs (if needed):
 ```
